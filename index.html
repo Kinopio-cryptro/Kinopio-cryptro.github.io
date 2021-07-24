@@ -1,34 +1,23 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exchange rate calculator</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="wapper">
-        <form action="">
-            <div>
-                <label for="">Forint:</label>
-                <input type="text" id="huf">
-            </div>
-            <div>
-                <label for="">Deviza:</label>
-                <input type="text" id="deviza">
-            </div>
-            <div>
-                <input type="button" id="calc" value="számít">
-                                <label type="text" id="result"></label>
-            </div>
-        </form>
+      <form action="">
+        <input type="text" id="huf" placeholder="Forint" />
+        <input type="text" id="deviza" placeholder="Deviza" />
+        <input type="button" id="calc" value="Számol" />
+        <label type="text" id="result"></label>
+      </form>
     </div>
 
     <script src="/js/main.js"></script>
-</body>
-
+  </body>
 </html>
