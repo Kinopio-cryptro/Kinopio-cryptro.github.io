@@ -1,4 +1,4 @@
-const huf = document.querySelector("#huf").value;
+const huf = document.getElementById("huf").value;
 const dev = document.getElementById("deviza").value;
 
 document.getElementById("calc").addEventListener("click", () => {
