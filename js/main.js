@@ -3,7 +3,7 @@
 
 document.getElementById("calc").addEventListener("click", () => {
     console.log(huf);
-    document.getElementById("result").innerHTML = (textForm(document.getElementById("huf").value) / textForm(document.getElementById("huf").value)).toFixed(2) * 100
+    document.getElementById("result").innerHTML = (textForm(document.getElementById("huf").value) / textForm(document.getElementById("deviza").value)).toFixed(2) * 100
 })
 
 function textForm(param) {
