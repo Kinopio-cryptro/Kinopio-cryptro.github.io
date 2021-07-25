@@ -1,8 +1,9 @@
-const huf = document.getElementById("huf").value;
-const dev = document.getElementById("deviza").value;
+// const huf = document.getElementById("huf").value;
+// const dev = document.getElementById("deviza").value;
 
 document.getElementById("calc").addEventListener("click", () => {
-    document.getElementById("result").innerHTML = (textForm(huf) / textForm(dev)).toFixed(2) * 100
+    console.log(huf);
+    document.getElementById("result").innerHTML = (textForm(document.getElementById("huf").value) / textForm(document.getElementById("huf").value)).toFixed(2) * 100
 })
 
 function textForm(param) {
